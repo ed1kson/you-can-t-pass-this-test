@@ -19,12 +19,7 @@ class Specbutton(QRadioButton):
     def __init__(self):
         super().__init__()
         text = 'text'
-
-
-
 a = 2
-
-
 
 answerlabel = QLabel('answerLabel')
 
@@ -103,7 +98,6 @@ mainline.addStretch(1)
 mainline.addWidget(box2)
 
 
-
 def next_question():
 
     
@@ -121,9 +115,6 @@ def next_question():
     answerbutton.hide()
     box.show()
     answerbutton.show()
-
-    
-
 
 
 def checkanswer():
